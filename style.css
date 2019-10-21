@@ -34,8 +34,9 @@ body {
         padding-right: 1rem;
     }
     .albumStyle {
-        height: 25%;
-        width: 25%;
-        align-content: center;
+        padding: 2rem;
+        height: 18rem;
+        width: 18rem;
+        /* align-content: center; */
     }
 }
