@@ -1,9 +1,3 @@
-@media screen and (min-width: 600px) {
-    .albumStyle {
-        padding: 4rem;
-    }
-}
-
 .albumStyle {
     padding: 2rem;
     width: 50%;
@@ -21,4 +15,27 @@
 .name {
     text-align: center;
     padding: 4rem;
+}
+
+.companyLogos {
+    width: 3rem;
+    height: 3rem;
+}
+
+body {
+    background-color: wheat;
+    padding-left: 8rem;
+    padding-right: 8rem;
+}
+
+@media screen and (max-width: 600px) {
+    body {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+    .albumStyle {
+        height: 25%;
+        width: 25%;
+        align-content: center;
+    }
 }
