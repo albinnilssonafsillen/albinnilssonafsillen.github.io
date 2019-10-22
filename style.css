@@ -1,7 +1,5 @@
 .albumStyle {
     padding: 2rem;
-    width: 50%;
-    height: 50%;
 }
 
 .card {
@@ -17,26 +15,35 @@
     padding: 4rem;
 }
 
-.companyLogos {
+.logos {
     width: 3rem;
     height: 3rem;
 }
 
-.slick-slide {
-    height: 50%;
+.slicker {
     width: 50%;
+    height: 50%;
 }
 
 body {
     background-color: whitesmoke;
     padding-left: 8rem;
     padding-right: 8rem;
-    font-size: 28;
+    font-size: 16;
 }
 
-@media screen and (max-width: 600px) {
+h6 {
+    text-align: center;
+}
+
+@media only screen and (max-width: 700px) {
     body {
         padding-left: 1rem;
         padding-right: 1rem;
+    }
+    .slicker {
+        width: 75%;
+        height: 50%;
+        text-align: center;
     }
 }
