@@ -22,6 +22,11 @@
     height: 3rem;
 }
 
+.slick-slide {
+    height: 50%;
+    width: 50%;
+}
+
 body {
     background-color: wheat;
     padding-left: 8rem;
@@ -32,11 +37,5 @@ body {
     body {
         padding-left: 1rem;
         padding-right: 1rem;
-    }
-    .albumStyle {
-        padding: 2rem;
-        height: 18rem;
-        width: 18rem;
-        /* align-content: center; */
     }
 }
