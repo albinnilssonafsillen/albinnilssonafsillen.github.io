@@ -1,66 +1,63 @@
-.albumStyle {
-    padding: 2rem;
-}
-
-.card {
-    padding: 1rem;
-}
-
-#introduction {
-    text-align: center
-}
-
-.name {
-    text-align: center;
-    padding: 4rem;
-}
-
-.logos {
-    width: 3rem;
-    height: 3rem;
-}
-
-.firstColumnCompetence {
-    width: 50%;
-    float: left;
-}
-
-.secondColumnCompetence {
-    width: 50%;
-    float: right;
-}
-
-.slicker {
-    width: 50%;
-    height: 50%;
-    text-align: right;
-}
-
-h1 {
-    font-weight: bold;
-}
-
-body {
-    background-color: whitesmoke;
-    padding-left: 8rem;
-    padding-right: 8rem;
-    font-size: 16;
-    font-family: 'Roboto Slab', serif;
-}
-
-h6 {
-    text-align: center;
-    font-weight: bold;
-}
-
-@media only screen and (max-width: 700px) {
-    body {
-        padding-left: 1rem;
-        padding-right: 1rem;
-    }
-    .slicker {
-        width: 75%;
-        height: 50%;
-        text-align: center;
-    }
-}
+        .albumStyle {
+            padding: 2rem;
+        }
+        
+        .card {
+            padding: 1rem;
+        }
+        
+        #introduction {
+            text-align: center
+        }
+        
+        .name {
+            text-align: center;
+            padding: 4rem;
+        }
+        
+        .logos {
+            width: 3rem;
+            height: 3rem;
+        }
+        
+        .firstColumnCompetence {
+            width: 50%;
+            float: left;
+        }
+        
+        .secondColumnCompetence {
+            width: 50%;
+            float: right;
+        }
+        
+        .slick-slide {
+            height: 50%;
+        }
+        
+        h1 {
+            font-weight: bold;
+        }
+        
+        body {
+            background-color: whitesmoke;
+            padding-left: 8rem;
+            padding-right: 8rem;
+            font-size: 16;
+            font-family: 'Roboto Slab', serif;
+        }
+        
+        h6 {
+            text-align: center;
+            font-weight: bold;
+            padding: 1rem;
+        }
+        
+        @media screen and (max-width: 700px) {
+            body {
+                padding-left: 2rem;
+                padding-right: 2rem;
+            }
+            .slick {
+                height: auto;
+            }
+        }
