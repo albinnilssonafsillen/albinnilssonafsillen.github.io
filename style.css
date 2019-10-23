@@ -1,5 +1,7 @@
         .albumStyle {
             padding: 2rem;
+            width: 50%;
+            height: 50%;
         }
         
         .card {
@@ -32,6 +34,7 @@
         
         .slick-slide {
             height: 50%;
+            width: 50%;
         }
         
         h1 {
@@ -57,6 +60,12 @@
                 padding-left: 2rem;
                 padding-right: 2rem;
             }
+            .slick {
+                height: auto;
+            }
+        }
+        
+        @media screen and (max-width: 480px) {
             .slick {
                 height: auto;
             }
