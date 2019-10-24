@@ -9,7 +9,14 @@
         }
         
         #introduction {
-            text-align: center
+            text-align: center;
+            padding: 1rem;
+            padding-top: 0rem;
+        }
+        
+        .merits {
+            text-align: center;
+            padding: 1rem;
         }
         
         .name {
@@ -47,8 +54,6 @@
         }
         
         .selfPortrait {
-            /* width: 150px;
-            height: 150px; */
             padding: 3rem;
             transform: rotate(20deg)
         }
@@ -77,10 +82,18 @@
             .slick {
                 height: auto;
             }
+            .selfPortrait {
+                transform: rotate(0deg);
+                text-align: center;
+            }
         }
         
         @media screen and (max-width: 480px) {
             .slick {
                 height: auto;
+            }
+            .selfPortrait {
+                transform: rotate(0deg);
+                text-align: center;
             }
         }
