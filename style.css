@@ -45,6 +45,7 @@
             /* width: 150px;
             height: 150px; */
             padding: 2rem;
+            transform: rotate(20deg)
         }
         
         body {
