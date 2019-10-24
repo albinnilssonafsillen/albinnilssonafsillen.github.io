@@ -41,19 +41,22 @@
             font-weight: bold;
         }
         
+        .coreCompetence {}
+        
         .selfPortrait {
             /* width: 150px;
             height: 150px; */
-            padding: 2rem;
+            padding: 3rem;
             transform: rotate(20deg)
         }
         
         body {
-            background-color: whitesmoke;
+            background-color: #001f3f;
             padding-left: 8rem;
             padding-right: 8rem;
             font-size: 16;
             font-family: 'Roboto Slab', serif;
+            color: whitesmoke;
         }
         
         h6 {
