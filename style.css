@@ -95,5 +95,6 @@
             .selfPortrait {
                 transform: rotate(0deg);
                 text-align: center;
+                justify-content: center;
             }
         }
