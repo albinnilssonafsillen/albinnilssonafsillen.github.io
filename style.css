@@ -9,6 +9,11 @@
             padding: 1rem;
         }
         
+        .slickerdiv {
+            background-color: white;
+            color: #001f3f;
+        }
+        
         #introduction {
             text-align: center;
             padding: 1rem;
