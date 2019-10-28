@@ -1,6 +1,7 @@
         .albumStyle {
             padding: 2rem;
             padding-bottom: 0rem;
+            padding-top: 0rem;
             width: 50%;
             height: 50%;
         }
@@ -9,9 +10,11 @@
             padding: 1rem;
         }
         
-        .slickerdiv {
-            background-color: white;
-            color: #001f3f;
+        .spotifyPlayer {
+            text-align: center;
+            padding: 2rem;
+            /* padding-bottom: ; */
+            border-bottom: white;
         }
         
         #introduction {
@@ -47,15 +50,11 @@
         .slick-slide {
             height: 50%;
             width: 50%;
+            text-align: center;
         }
         
         h1 {
             font-weight: bold;
-        }
-        
-        .slicker {
-            align-content: center;
-            text-align: center;
         }
         
         .selfPortrait {
