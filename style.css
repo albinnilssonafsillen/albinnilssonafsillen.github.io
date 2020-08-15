@@ -13,7 +13,7 @@
         .spotifyPlayer {
             text-align: center;
             padding: 2rem;
-            /* padding-bottom: ; */
+            padding-bottom: 4rem;
             border-bottom: white;
         }
         
@@ -59,7 +59,7 @@
         
         .selfPortrait {
             padding: 3rem;
-            transform: rotate(20deg)
+            transform: rotate(20deg);
         }
         
         body {
@@ -86,19 +86,12 @@
             .slick {
                 height: auto;
             }
-            .selfPortrait {
-                transform: rotate(0deg);
-                text-align: center;
-            }
         }
         
-        @media screen and (max-width: 480px) {
-            .slick {
-                height: auto;
-            }
+        @media screen and (max-width: 578px) {
             .selfPortrait {
                 transform: rotate(0deg);
-                text-align: center;
-                justify-content: center;
+                padding: 6rem;
+                padding-bottom: 3rem;
             }
         }
