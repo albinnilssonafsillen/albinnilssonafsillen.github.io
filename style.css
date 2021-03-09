@@ -44,6 +44,13 @@
         }
         
 
+        @media screen and (max-width: 600px) {
+            .text {
+                font-size: 3rem;
+            }
+        } 
+
+
         /*------------------ ÄLDRE SIDA ------------------
         
         /* .albumStyle {
