@@ -20,6 +20,10 @@ function justSayYes() {
             if (response2) {
                 alert(`Nice`)
                 document.getElementById("theLoveDiv").style.visibility = "visible";
+                document.getElementById("loveButton").setAttribute("disabled", "disabled");
+                document.getElementById("loveText").innerHTML ="Vänligen hångla med systemadministratören";
+                document.getElementById("loveText").style.border ="4px solid whitesmoke";
+                document.getElementById("loveText").style.padding ="5px";
             } else {
                 alert(":(")
                 return;
