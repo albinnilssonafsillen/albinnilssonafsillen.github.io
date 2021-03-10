@@ -40,12 +40,24 @@
             flex-direction: row;
         }
         
+        @media only screen and (max-width: 600px) {
 
-        @media (max-width: 600px) {
+            .text, .button {
+                font-size: 2rem;
+            }
+
+            .button {
+                margin: 1rem;
+            }
+
+          }
+
+        /* @media (max-width: 600px) {
             .text, .button {
                 font-size: 3rem;
             }
-        } 
+        }  */
+
 
 
         /*------------------ ÄLDRE SIDA ------------------
