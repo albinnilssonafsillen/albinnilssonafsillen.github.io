@@ -1,6 +1,6 @@
         body {
             background-color: orange;
-            margin:1rem;
+            overflow: hidden;
         }
         
         .container { 
@@ -19,6 +19,10 @@
         .buttons {
             align-self:center;
         }
+
+        .slick-next {
+            right: -25px;
+          }
  
         .button {
             margin: 2rem;

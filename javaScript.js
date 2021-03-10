@@ -6,7 +6,8 @@ $(document).ready(function () {
         fade: true,
         prevArrow: false,
         nextArrow: false,
-        cssEase: 'linear'
+        cssEase: 'linear',
+        centerMode: true,
     });
 });
 
