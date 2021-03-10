@@ -11,11 +11,15 @@ $(document).ready(function() {
 });
 
 function justSayYes() {
-
     const response = confirm("Vänligen bekräfta om du vill ingå i partnerskap?");
-
     if(response) {
         alert(`Nice`)
         document.getElementById("theLoveDiv").style.visibility = "visible";
+    } else {
+        alert(":(")
+        return;
     }
 }
+
+
+// YouTube
