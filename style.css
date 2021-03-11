@@ -62,7 +62,11 @@
             .button {
                 margin: 1rem;
             }
-          }
+            
+            .images {
+                width: 300px;
+            }
+        }
 
 
 
