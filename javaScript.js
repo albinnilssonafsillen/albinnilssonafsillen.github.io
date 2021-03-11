@@ -7,6 +7,7 @@ $(document).ready(function () {
         prevArrow: false,
         nextArrow: false,
         cssEase: 'linear',
+        variableWidth: false,
     });
 });
 
@@ -37,6 +38,3 @@ function justSayYes() {
     }
 
 }
-
-
-// YouTube
