@@ -1,144 +1,64 @@
-        /* body {
-            background-color: orange;
-            background-repeat: no-repeat;
-            overflow: hidden;
-            font-family: Arial, Helvetica, sans-serif;
-            min-height: 0;
-            min-width: 0;
-        }
-        
-        .container { 
-            display: flex;
-            justify-content:center; 
-            flex-direction: column;
-            padding: 3rem;
+
+        .contactInfo {
+            color: orange;
         }
 
-        .text {
-            align-self: center;
-            font-size: 2rem;
-            color: whitesmoke;
-        }
-
-        .buttons {
-            align-self:center;
-        }
- 
-        .button {
-            margin: 2rem;
-        }
-
-        .slick-track {
-            width:300px;
-        }
-        
-        .yes {
-            padding: 1rem;
-            font-size: 2rem;
-            border-radius:20px;
-            color:orange;
-            background-color: whitesmoke;
-        }
-
-        .images {
-            width: 500px;
-            height: 300px;
-            visibility: hidden;
-            align-self: center;
-            flex-direction: row;
-            object-fit: cover;
-        }
-
-        .slicker {
-            width: auto;
-        }
-        
-        @media only screen and (max-width: 600px) {
-
-            .text, .button {
-                font-size: 2rem;
-            }
-
-            .button {
-                margin: 1rem;
-            }
-            
-            .images {
-                width: 300px;
-            }
+        /* .albumStyle {
+            padding: 2rem;
+            justify-content: center;
         } */
 
-
-
-        
-         .albumStyle {
-            padding: 2rem;
-            padding-bottom: 0rem;
-            padding-top: 0rem;
-            width: 50%;
-            height: 50%;
-        }
-        
-        .card {
-            padding: 1rem;
-        }
-        
         .spotifyPlayer {
             text-align: center;
-            padding: 2rem;
-            padding-bottom: 4rem;
-            border-bottom: white;
+            padding: 1rem;
         }
-        
-        #introduction {
+
+        .introduction {
             text-align: center;
             padding: 1rem;
             padding-top: 0rem;
         }
-        
+
         .merits {
             text-align: center;
         }
-        
+
         .name {
             text-align: center;
             padding: 4rem;
+            color: orange;
         }
-        
+
         .logos {
             width: 3rem;
             height: 3rem;
         }
-        
+
         .firstColumnCompetence {
             width: 50%;
             float: left;
         }
 
-        .superFunnyPictures {
-            align-items: center;
-        }
-        
         .secondColumnCompetence {
             width: 50%;
             float: right;
         }
-        
+
         .slick-slide {
             height: 50%;
             width: 50%;
             text-align: center;
         }
-        
+
         h1 {
             font-weight: bold;
         }
-        
+
         .selfPortrait {
             padding: 3rem;
             transform: rotate(20deg);
         }
-        
+
         body {
             background-color: #001f3f;
             padding-left: 8rem;
@@ -147,28 +67,30 @@
             font-family: 'Roboto Slab', serif;
             color: whitesmoke;
         }
-        
+
         h6 {
             text-align: center;
             font-weight: bold;
             padding: 1rem;
             font-size: 28;
+            border: 3px solid orange;
+
         }
-        
+
         @media screen and (max-width: 700px) {
             body {
                 padding-left: 2rem;
                 padding-right: 2rem;
             }
-            .slick {
+            /* .slick {
                 height: auto;
-            }
+            } */
         }
-        
+
         @media screen and (max-width: 578px) {
             .selfPortrait {
                 transform: rotate(0deg);
                 padding: 6rem;
                 padding-bottom: 3rem;
             }
-        } 
+        }
