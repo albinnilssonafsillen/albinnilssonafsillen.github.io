@@ -1,4 +1,4 @@
-        body {
+        /* body {
             background-color: orange;
             background-repeat: no-repeat;
             overflow: hidden;
@@ -66,13 +66,12 @@
             .images {
                 width: 300px;
             }
-        }
+        } */
 
 
 
-        /*------------------ ÄLDRE SIDA ------------------
         
-        /* .albumStyle {
+         .albumStyle {
             padding: 2rem;
             padding-bottom: 0rem;
             padding-top: 0rem;
@@ -172,4 +171,4 @@
                 padding: 6rem;
                 padding-bottom: 3rem;
             }
-        } */
+        } 
