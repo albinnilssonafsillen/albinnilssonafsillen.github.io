@@ -96,6 +96,7 @@ body {
 .time-group {
     display: flex;
     gap: 10px;
+    align-items: center;
 }
 
 .time-segment {
@@ -264,6 +265,7 @@ body {
 
     .segment-overlay {
         width: 80px;
+        width: 0;
     }
 }
 
