@@ -18,7 +18,7 @@ body {
 }
 
 .container.inactive {
-    opacity: 0.8;
+    opacity: 0.6;
 }
 
 
@@ -46,6 +46,7 @@ body {
     border-radius: 20px;
     color: orange;
     background-color: whitesmoke;
+    cursor: not-allowed;
 }
 
 .images {
