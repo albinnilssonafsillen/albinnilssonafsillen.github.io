@@ -39,7 +39,8 @@ function justSayYes() {
 
 }
 
-const sinceIDo = new Date(547714658 * 1000);
+const tobbeDotSeMagic = 547714658
+const sinceIDo = new Date(tobbeDotSeMagic * 1000);
 
 function getTimeSegmentElements(segmentElement) {
   const segmentDisplay = segmentElement.querySelector(
