@@ -39,7 +39,7 @@ function justSayYes() {
 
 }
 
-const tobbeDotSeMagic = 547714658
+const tobbeDotSeMagic = 1738075974
 const sinceIDo = new Date(tobbeDotSeMagic * 1000);
 
 function getTimeSegmentElements(segmentElement) {
@@ -80,6 +80,7 @@ function updateSegmentValues(
   displayElement.textContent = value;
   overlayElement.textContent = value;
 }
+
 
 function updateTimeSegment(segmentElement, timeValue) {
   const segmentElements =
