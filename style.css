@@ -198,6 +198,11 @@ body {
 }
 
 
+#ooooohIDoIDoIDoooooo {
+    max-width: 450px;
+    max-height: 600px;
+}
+
 
 
 @media only screen and (max-width: 768px) {
@@ -271,6 +276,12 @@ padding: 2rem;;
         width: 80px;
         width: 0;
     }
+
+    #ooooohIDoIDoIDoooooo {
+        max-width: 250px;
+        max-height: 400px;
+    }
+    
 }
 
 @media only screen and (max-width: 320px) {
