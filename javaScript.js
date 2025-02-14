@@ -146,6 +146,7 @@ function getTimeElapsed(startDateTime) {
         minutes: 0,
         hours: 0,
         days: 0,
+        weeks: 0,
         months: 0,
         years: 0
       };
@@ -182,13 +183,17 @@ function getTimeElapsed(startDateTime) {
       months += 12;
       years--;
     }
-  
+
+    let weeks = Math.floor(days/7);
+    days = days % 7;
+
     return {
       complete,
       seconds,
       minutes,
       hours,
       days,
+      weeks,
       months,
       years
     };
@@ -206,6 +211,7 @@ function getTimeRemaining(targetDateTime) {
       minutes: 0,
       hours: 0,
       days: 0,
+      weeks: 0,
       months: 0,
       years: 0
     };
@@ -222,6 +228,9 @@ function getTimeRemaining(targetDateTime) {
   const days = Math.floor(secondsElapsed / (24 * 60 * 60));
   secondsElapsed -= days * 24 * 60 * 60;
 
+  const weeks = Math.floor(days / 7);
+  const remainingDays = days % 7;
+
   const hours = Math.floor(secondsElapsed / (60 * 60));
   secondsElapsed -= hours * 60 * 60;
 
@@ -233,7 +242,8 @@ function getTimeRemaining(targetDateTime) {
     seconds,
     minutes,
     hours,
-    days,
+    days: remainingDays,
+    weeks,
     months,
     years
   };
@@ -248,6 +258,7 @@ function updateAllSegments() {
   updateTimeSection('minutes', timeRemainingBits.minutes);
   updateTimeSection('hours', timeRemainingBits.hours);
   updateTimeSection('days', timeRemainingBits.days);
+  updateTimeSection('weeks', timeRemainingBits.weeks);
   updateTimeSection('months', timeRemainingBits.months);
   updateTimeSection('years', timeRemainingBits.years);
 

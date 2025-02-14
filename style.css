@@ -84,7 +84,7 @@ body {
 
 .countdown {
     display: flex;
-    gap: 30px;
+    gap: 15px;
     font-family: sans-serif;
 }
 
@@ -95,7 +95,7 @@ body {
 
 .time-group {
     display: flex;
-    gap: 10px;
+    gap: 5px;
     align-items: center;
 }
 
